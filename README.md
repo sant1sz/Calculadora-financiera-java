@@ -14,3 +14,10 @@ financieras cotidianas en entornos administrativos.
 - Organización en paquetes
 - Manejo de excepciones
 - Validación de entrada del usuario
+- ## Requisitos
+- Java 17 o superiores
+ ## Ejecución del proyecto
+ ```bash
+javac -d out src/main/*.java src/operaciones/*.java src/utils/*.java
+java -cp out main.Main
+```
